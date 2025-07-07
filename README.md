@@ -1,5 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
 # Fine-Tuning Projects Repository
 
 A comprehensive collection of transformer model fine-tuning projects demonstrating progressive skill development from basic BERT fine-tuning to advanced parameter-efficient methods using LoRA (Low-Rank Adaptation).
@@ -76,8 +74,8 @@ Introduction to BERT fine-tuning for binary sentiment classification using synth
 
 ### Files
 
-- `basic_bert_sentiment.ipynb` - Complete implementation notebook
-- `basic_bert_sentiment_report.md` - Detailed project report
+- `syntheticbert.ipynb` - Complete implementation notebook
+- `Synthetic BERT Sentiment Analysis Finetuning.pdf` - Detailed project report
 
 
 ### Key Learnings
@@ -115,8 +113,8 @@ Advanced implementation of parameter-efficient fine-tuning using LoRA for extrac
 
 ### Files
 
-- `lora_question_answering.ipynb` - Complete LoRA implementation
-- `lora_qa_report.md` - Comprehensive technical report
+- `lora.ipynb` - Complete LoRA implementation
+- `LoRA QA Report.pdf` - Comprehensive technical report
 
 
 ### Key Innovations
@@ -154,7 +152,7 @@ Refined BERT fine-tuning implementation with realistic performance expectations 
 ### Files
 
 - `advanced_bert_sentiment.ipynb` - Optimized implementation
-- `advanced_bert_sentiment_report.md` - Detailed analysis report
+- `Advanced BERT Sentiment Report.pdf` - Detailed analysis report
 
 
 ### Key Improvements
@@ -216,39 +214,6 @@ pip install scikit-learn matplotlib seaborn
 pip install peft  # For LoRA project
 ```
 
-
-### Quick Start
-
-#### Project 1: Basic BERT Sentiment
-
-```bash
-# Open Jupyter notebook
-jupyter notebook basic_bert_sentiment.ipynb
-
-# Or run in Google Colab
-# Upload notebook to Colab and follow execution steps
-```
-
-
-#### Project 2: LoRA Question-Answering
-
-```bash
-# Ensure PEFT library is installed
-pip install peft
-
-# Open LoRA notebook
-jupyter notebook lora_question_answering.ipynb
-```
-
-
-#### Project 3: Advanced BERT Sentiment
-
-```bash
-# Open advanced implementation
-jupyter notebook advanced_bert_sentiment.ipynb
-```
-
-
 ### Hardware Requirements
 
 | Project | Minimum GPU | Recommended GPU | Training Time |
@@ -256,34 +221,6 @@ jupyter notebook advanced_bert_sentiment.ipynb
 | **Basic BERT** | 8GB VRAM | 12GB+ VRAM | 3-5 minutes |
 | **LoRA QA** | 6GB VRAM | 12GB+ VRAM | 4-6 minutes |
 | **Advanced BERT** | 12GB VRAM | 16GB+ VRAM | 10-15 minutes |
-
-## 📁 Repository Structure
-
-```
-finetuning/
-├── README.md
-├── requirements.txt
-├── project1_basic_bert/
-│   ├── basic_bert_sentiment.ipynb
-│   ├── basic_bert_sentiment_report.md
-│   └── models/ (generated during training)
-├── project2_lora_qa/
-│   ├── lora_question_answering.ipynb
-│   ├── lora_qa_report.md
-│   └── adapters/ (LoRA adapters)
-├── project3_advanced_bert/
-│   ├── advanced_bert_sentiment.ipynb
-│   ├── advanced_bert_sentiment_report.md
-│   └── models/ (saved models)
-├── docs/
-│   ├── technical_overview.md
-│   ├── performance_analysis.md
-│   └── interview_qa.md
-└── utils/
-    ├── data_preprocessing.py
-    ├── evaluation_metrics.py
-    └── visualization_tools.py
-```
 
 
 ## 📊 Results Summary
@@ -356,48 +293,3 @@ finetuning/
 - **Monitoring Systems**: Implement model performance tracking
 - **A/B Testing**: Framework for comparing model versions
 - **Deployment Automation**: CI/CD pipelines for model updates
-
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit pull requests, open issues, or suggest improvements.
-
-### Contribution Guidelines
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Open a Pull Request
-
-## 📞 Contact
-
-**Project Author**: [Your Name]
-
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your LinkedIn Profile]
-- **GitHub**: [Your GitHub Profile]
-
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Hugging Face team for providing excellent transformer libraries
-- Google Colab for providing free GPU access for research and learning
-- The open-source community for continuous innovation in NLP
-
-*This repository demonstrates a comprehensive journey through modern NLP fine-tuning techniques, from foundational concepts to cutting-edge optimization methods. Each project builds upon previous learnings while introducing new challenges and solutions.*
-
-<div style="text-align: center">⁂</div>
-
-[^1]: qs.txt
-
-[^2]: Untitled20.ipynb
-
-[^3]: lora.ipynb
-
-[^4]: BERTSentiment.ipynb
-
